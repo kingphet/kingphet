@@ -42,7 +42,7 @@ export default function Product() {
           <div className="w-full flex flex-wrap justify-center">
             {dataproduct.map((items) => (
               <div
-                className="w-5/12 h-96 rounded-lg flex items-center justify-center mr-2 mt-16 hover:border-slate-800"
+                className="w-5/12 h-96 rounded-lg flex items-center justify-center mr-2 mt-16 border-solid border-2 hover:border-slate-950 bg-cover bg-cover"
                 key={items.id}
                 style={{ backgroundImage: `url(${items.background})` }}
               >
